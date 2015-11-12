@@ -16,11 +16,13 @@ namespace _2_MethodGroups
             //form.Invoke(MyGreatMethod);
 
             //Delegate del = MyGreatMethod;
-            //Delegate del1 = (ThreadStart) MyGreatMethod; // Casting
+            //Delegate del1 = (ThreadStart)MyGreatMethod; // Casting
             //Delegate del2 = (EventHandler)MyGreatMethod; // Casting
             //InvokeIt(MyGreatMethod, null, new EventArgs()); // Helper method
             //ThreadStart ts2 = MyGreatMethod;
             //form.Invoke(ts2);
+
+            Application.Run(form);
         }
 
         public static void InvokeIt(EventHandler eventHandler, object sender, EventArgs e)

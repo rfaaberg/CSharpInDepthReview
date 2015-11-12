@@ -11,9 +11,17 @@ namespace _4_AnonymousMethods
     {
         static void Main(string[] args)
         {
-            Form form = new Form();
-            form.AutoSize = true;
+            Predicate<string> isLongerThanThreeCharacters = delegate(string input)
+            {
+                return input != null && input.Length > 3;
+            };
 
+            foreach (var input in new string[] {"a", "bb", "c", "dddd", "e", "ffffff"})
+            {
+                Console.WriteLine("{0} is longer than 3: {1}", input, isLongerThanThreeCharacters(input));
+            }
+
+            Console.ReadLine();
         }
     }
 }
