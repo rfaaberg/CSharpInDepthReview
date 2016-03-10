@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChapterTwelveLINQBeyondCollections", "ChapterTwelveLINQBeyondCollections\ChapterTwelveLINQBeyondCollections.csproj", "{544EE04B-3C8A-4FD5-A398-59819C5CC772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToXML", "LinqToXML\LinqToXML.csproj", "{F4532C15-B33B-4F20-B06F-972FA81A56D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToSQL", "LinqToSQL\LinqToSQL.csproj", "{83CBF2D2-62F8-4BD1-A3A5-97E8D4F2EEB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{544EE04B-3C8A-4FD5-A398-59819C5CC772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{544EE04B-3C8A-4FD5-A398-59819C5CC772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{544EE04B-3C8A-4FD5-A398-59819C5CC772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{544EE04B-3C8A-4FD5-A398-59819C5CC772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4532C15-B33B-4F20-B06F-972FA81A56D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4532C15-B33B-4F20-B06F-972FA81A56D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4532C15-B33B-4F20-B06F-972FA81A56D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4532C15-B33B-4F20-B06F-972FA81A56D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83CBF2D2-62F8-4BD1-A3A5-97E8D4F2EEB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83CBF2D2-62F8-4BD1-A3A5-97E8D4F2EEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83CBF2D2-62F8-4BD1-A3A5-97E8D4F2EEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83CBF2D2-62F8-4BD1-A3A5-97E8D4F2EEB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
